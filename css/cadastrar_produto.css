@@ -1,0 +1,54 @@
+/* Fundo da página azul bebê */
+body {
+    background-color: #cce7ff;
+}
+
+/* Card do formulário com borda azul escura */
+.card {
+    border: 2px solid #0d6efd; /* azul escuro */
+    border-radius: 12px;
+    background-color: #ffffff; /* mantém o interior branco */
+}
+
+/* Header do card com fundo azul escuro e texto branco */
+.card-header {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #0d6efd;
+}
+
+/* Inputs e textarea */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #0d6efd;
+    transition: all 0.3s ease;
+}
+
+/* Foco nos campos */
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+    border-color: #0d6efd;
+}
+
+/* Botões */
+.btn-success {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-success:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
